@@ -21,9 +21,7 @@ public class EmployeeTest {
         createEmployee(23, "Jack", " Dorsey", "Imaginea");
         createEmployee(24, "Sam", "Fox", "Imaginea");
 
-
         context.close();
-
 
     }
 
@@ -31,8 +29,6 @@ public class EmployeeTest {
 
         Employee emp = new Employee(id, firstName, lastName, dept);
         repository.save(emp);
-
     }
-
 
 }
